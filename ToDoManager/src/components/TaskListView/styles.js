@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.View`
-  flex: 1;
   padding: 0px 10px;
 `;
 
 export const HeaderContainer = styled.View`
-  flex: 1;
   flex-direction: row;
   align-items: center;
   border-radius: 25px;
-  margin: 25px 0px 15px;
+  margin: 10px 0;
 `;
 
 export const HeaderTagContainer = styled.View`
@@ -35,7 +33,6 @@ export const HeaderTitle = styled.Text`
 `;
 
 export const ItemContainer = styled.TouchableOpacity`
-  flex: 1;
   background: #f3f2f0;
   margin-top: 20px;
   padding: 10px;
